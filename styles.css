@@ -1,0 +1,45 @@
+.post-header {
+  display: flex;
+  align-items: center; /* centra verticalmente icono y texto */
+  gap: 10px; /* espacio entre icono y texto */
+}
+
+.text {
+  display: flex;
+  flex-direction: column; /* h3 arriba, p abajo */
+}
+
+.text-icon h3,
+.text-icon p {
+  margin: 0; /* elimina espacios por defecto */
+}
+
+.post-img img {
+  width: 100%;      /* ocupa todo el ancho */
+  height: auto;     /* mantiene proporción */
+  display: block;   /* elimina espacios raros */
+}
+
+.right-icon {
+  margin-left: auto; /* empuja el icono a la derecha */
+}
+.post-icons {
+  display: flex;
+  justify-content: space-between; /* separa los iconos a los extremos */
+  align-items: center; /* centra verticalmente */
+  margin-bottom: 8px; /* espacio debajo de los iconos */
+}   
+
+.post-icons div i {
+  margin-right: 12px; /* espacio entre iconos */
+  font-size: 24px;    /* tamaño de los iconos */
+  cursor: pointer;    /* cursor de mano al pasar por encima */
+}       
+
+.post-icons .right-icon i {
+  margin-right: 0; /* elimina margen derecho del icono de la derecha */
+}
+
+.post-body p {
+  margin: 4px 0; /* espacio entre párrafos */
+}
